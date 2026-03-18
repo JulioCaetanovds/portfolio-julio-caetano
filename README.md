@@ -1,39 +1,43 @@
-**Welcome to your Base44 project** 
+# Júlio Caetano - Portfólio Pessoal
 
-**About**
+Portfólio interativo desenvolvido para apresentar minha trajetória, habilidades e projetos com foco em **Desenvolvimento Mobile Fullstack** e **Engenharia de Qualidade (QA Automation/SDET)**.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+## 🛠️ Tecnologias Utilizadas
 
-This project contains everything you need to run your app locally.
+Este projeto foi construído com foco em performance e design responsivo, utilizando:
 
-**Edit the code in your local development environment**
+* **React (Vite)** - Framework principal para renderização rápida.
+* **Tailwind CSS** - Estilização utilitária e design system.
+* **Framer Motion** - Animações fluidas e interações de UI.
+* **Shadcn/UI** - Componentes de interface acessíveis e customizáveis.
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+## 🚀 Como executar o projeto localmente
 
-**Prerequisites:** 
+**1. Clone o repositório:**
+\`\`\`bash
+git clone https://github.com/JulioCaetanovds/NOME_DO_SEU_REPO.git
+cd NOME_DO_SEU_REPO
+\`\`\`
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+**2. Instale as dependências:**
+\`\`\`bash
+npm install
+\`\`\`
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+**3. Configure as variáveis de ambiente:**
+Crie um arquivo `.env` na raiz do projeto e adicione a seguinte variável para habilitar o proxy do Vite:
+\`\`\`env
+VITE_BASE44_APP_BASE_URL=http://localhost:5173
+\`\`\`
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+**4. Inicie o servidor de desenvolvimento:**
+\`\`\`bash
+npm run dev
+\`\`\`
 
-Run the app: `npm run dev`
+Acesse `http://localhost:5173` no seu navegador para visualizar o portfólio.
 
-**Publish your changes**
+## 📫 Contato
 
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+* **LinkedIn:** [linkedin.com/in/juliocaetano15](https://www.linkedin.com/in/juliocaetano15/)
+* **E-mail:** juliocaetanovds@gmail.com
