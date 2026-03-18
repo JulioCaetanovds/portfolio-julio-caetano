@@ -59,7 +59,7 @@ export default function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.6 }}
                     className="font-body text-sm md:text-base text-muted-foreground mt-6 max-w-xl mx-auto leading-relaxed"
                 >
-                    Estudante de Análise e Desenvolvimento de Sistemas. Desenvolvedor focado em criar soluções robustas (Flutter/Node.js) e obcecado em garantir a qualidade de cada entrega através da <span className="font-semibold text-foreground">Engenharia de Testes</span> e automação inteligente.
+                    Estudante de Análise e Desenvolvimento de Sistemas. Desenvolvedor focado em criar soluções robustas (Flutter/Node.js) e dedicado em garantir a qualidade de cada entrega através da <span className="font-semibold text-foreground">Engenharia de Testes</span> e automação inteligente.
                 </motion.p>
 
                 <motion.div
