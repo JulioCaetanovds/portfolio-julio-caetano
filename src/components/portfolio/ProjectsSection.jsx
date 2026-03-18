@@ -15,7 +15,7 @@ const projects = [
         shortDescription: "Plataforma Fullstack para descoberta e reserva de quadras.",
         fullDescription: "Backend robusto em Node.js/TypeScript com endpoints REST, integrado ao Firebase para autenticação de usuários. O frontend é um aplicativo móvel em Flutter que consome a API para permitir que atletas reservem horários e donos de quadras gerenciem suas agendas.",
         tags: ["Flutter", "Node.js", "Docker", "Firebase", "TypeScript"],
-        repo: "https://github.com/JulioCaetanovds",
+        repo: "https://github.com/JulioCaetanovds/ADS_JulioCaetano_QuadraFacil.git",
         // Imagem realista de código/mobile
         image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000&auto=format&fit=crop",
     },
@@ -24,7 +24,7 @@ const projects = [
         shortDescription: "App nativo para impressoras térmicas BLE (58mm) com algoritmos de IA.",
         fullDescription: "Projeto que lida com processamento pesado de imagens e manipulação de hardware de baixo nível. Implementa algoritmo de Dithering (Floyd-Steinberg) manual com multithreading via Isolates no Dart, além de engenharia de prompt invisível conectada à API do Hugging Face para gerar imagens otimizadas para o papel térmico.",
         tags: ["Dart", "Bluetooth LE", "Hardware Integration", "Hugging Face"],
-        repo: "https://github.com/JulioCaetanovds",
+        repo: "https://github.com/JulioCaetanovds/Thermal_Printer_APP.git",
         // Imagem realista de hardware/impressão/mobile
         image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1000&auto=format&fit=crop",
     },
@@ -33,7 +33,7 @@ const projects = [
         shortDescription: "Suíte robusta de automação E2E mesclando testes exploratórios e automação.",
         fullDescription: "Desenvolvido como teste prático de QA. Utiliza o padrão XFAIL para mapear bugs conhecidos sem quebrar a pipeline. Focado em garantir a qualidade e a melhor experiência do usuário, utilizando Faker para massa de dados dinâmica e Playwright para interação com a UI.",
         tags: ["Python", "Playwright", "Pytest", "Faker"],
-        repo: "https://github.com/JulioCaetanovds",
+        repo: "https://github.com/JulioCaetanovds/rubeus-teste-qa.git",
         // Imagem realista de automação/dashboard
         image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1000&auto=format&fit=crop",
     },
