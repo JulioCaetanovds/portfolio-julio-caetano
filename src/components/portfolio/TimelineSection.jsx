@@ -8,28 +8,35 @@ const experiences = [
         company: "Saicon Sistemas de Pesagem",
         period: "Maio 2025 – Presente",
         description:
-            "Desenvolvimento e manutenção de 9 aplicativos em Flutter, estruturação de arquitetura offline-first e integração com hardware via Bluetooth/IoT para pesagem industrial.",
+            "Desenvolvimento e manutenção de 9 aplicativos em Flutter com arquitetura offline-first. Foco em prevenção de falhas e integração robusta com hardware via Bluetooth/IoT.",
     },
     {
         role: "Analista de Suporte ERP",
         company: "Elevor",
         period: "Fevereiro 2025 – Maio 2025",
         description:
-            "Atuação estratégica no suporte a módulos financeiro e fiscal, realizando homologação de atualizações de sistema e análise aprofundada de logs para troubleshooting e reporte de bugs.",
+            "Atuação estratégica no suporte a módulos financeiro e fiscal. Responsável pela análise de logs para troubleshooting e documentação detalhada de cenários de falha para o time de desenvolvimento.",
     },
     {
         role: "Suporte de Filiais",
         company: "Rede de Farmácias São João",
         period: "Setembro 2024 – Fevereiro 2025",
         description:
-            "Suporte técnico em ambiente corporativo de grande escala. Responsável pela triagem crítica de chamados operacionais, desenvolvendo forte capacidade de identificação de padrões de falhas.",
+            "Atendimento técnico N1 em ambiente corporativo de grande escala. Foco na identificação de padrões de falhas operacionais e categorização precisa de chamados críticos.",
+    },
+    {
+        role: "Estagiário em Suporte Técnico",
+        company: "SomaSys",
+        period: "Maio 2024 – Setembro 2024",
+        description:
+            "Diagnóstico de falhas de hardware/software e execução de consultas em banco de dados (SQL e Firebird) para garantir a integridade das informações durante o atendimento.",
     },
     {
         role: "Estagiário de QA / Automação",
         company: "Compass UOL",
         period: "Junho 2023 – Novembro 2023",
         description:
-            "Implementação de automação de testes web utilizando Ruby, Cucumber e Capybara, com forte base em BDD (Behavior Driven Development) e execução de testes exploratórios.",
+            "Desenvolvimento de scripts de automação do zero (Ruby/Capybara) e estruturação de cenários de teste BDD (Cucumber) para identificação precoce de falhas em ambiente ágil.",
     },
 ];
 

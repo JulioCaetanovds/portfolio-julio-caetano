@@ -11,39 +11,52 @@ import {
 
 const projects = [
     {
-        title: "QuadraFácil",
+        title: "QuadraFácil (TCC)",
         shortDescription: "Plataforma Fullstack para descoberta e reserva de quadras.",
-        fullDescription: "Backend robusto em Node.js/TypeScript com endpoints REST, integrado ao Firebase para autenticação de usuários. O frontend é um aplicativo móvel em Flutter que consome a API para permitir que atletas reservem horários e donos de quadras gerenciem suas agendas.",
-        tags: ["Flutter", "Node.js", "Docker", "Firebase", "TypeScript"],
+        fullDescription: "Sistema completo com backend em Node.js/TypeScript e app mobile em Flutter. Utiliza Firebase Auth para gestão de acesso e integra recursos de geolocalização e chat em tempo real.",
+        tags: ["Flutter", "Node.js", "Firebase", "TypeScript"],
         repo: "https://github.com/JulioCaetanovds/ADS_JulioCaetano_QuadraFacil.git",
-        // Imagem realista de código/mobile
         image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000&auto=format&fit=crop",
     },
     {
         title: "Thermal Printer Utility",
-        shortDescription: "App nativo para impressoras térmicas BLE (58mm) com algoritmos de IA.",
-        fullDescription: "Projeto que lida com processamento pesado de imagens e manipulação de hardware de baixo nível. Implementa algoritmo de Dithering (Floyd-Steinberg) manual com multithreading via Isolates no Dart, além de engenharia de prompt invisível conectada à API do Hugging Face para gerar imagens otimizadas para o papel térmico.",
-        tags: ["Dart", "Bluetooth LE", "Hardware Integration", "Hugging Face"],
+        shortDescription: "App nativo para impressoras térmicas BLE com processamento de IA.",
+        fullDescription: "Solução focada em hardware de baixo nível. Implementa algoritmos de Dithering manual e multithreading para garantir impressão de alta qualidade em dispositivos Bluetooth, com geração de imagens via Hugging Face API.",
+        tags: ["Dart", "Bluetooth LE", "AI Integration", "Isolates"],
         repo: "https://github.com/JulioCaetanovds/Thermal_Printer_APP.git",
-        // Imagem realista de hardware/impressão/mobile
         image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1000&auto=format&fit=crop",
     },
     {
-        title: "Rubeus E2E Automation",
-        shortDescription: "Suíte robusta de automação E2E mesclando testes exploratórios e automação.",
-        fullDescription: "Desenvolvido como teste prático de QA. Utiliza o padrão XFAIL para mapear bugs conhecidos sem quebrar a pipeline. Focado em garantir a qualidade e a melhor experiência do usuário, utilizando Faker para massa de dados dinâmica e Playwright para interação com a UI.",
+        title: "Test Strategy - Finanças",
+        shortDescription: "Suíte fullstack aplicando a Pirâmide de Testes completa.",
+        fullDescription: "Arquitetura de testes isolada com Playwright (E2E) usando Network Mocking, Vitest no Frontend e xUnit no Backend .NET. Focado em garantir 100% de confiabilidade nas regras de negócio.",
+        tags: ["Playwright", "xUnit", "Vitest", ".NET"],
+        repo: "https://github.com/JulioCaetanovds/minhas-financas-qa.git",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    },
+    {
+        title: "GhostTouch QA",
+        shortDescription: "Driver de automação Black-box para Android Accessibility Service.",
+        fullDescription: "Prova de Conceito de um driver nativo (Kotlin/Flutter) que permite automatizar apps de terceiros sem acesso ao código-fonte, simulando gestos reais através da API de acessibilidade do Android.",
+        tags: ["Kotlin", "Android Native", "Flutter", "QA Automation"],
+        repo: "https://github.com/JulioCaetanovds/GhostTouch-QA-Automation.git",
+        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop",
+    },
+    {
+        title: "Rubeus Automation",
+        shortDescription: "Automação E2E moderna com foco em UX e massa de dados dinâmica.",
+        fullDescription: "Projeto de engenharia de qualidade utilizando Playwright e Python. Implementa geração de massa de dados realista com Faker e lógica XFAIL para gestão de débitos técnicos e bugs conhecidos.",
         tags: ["Python", "Playwright", "Pytest", "Faker"],
         repo: "https://github.com/JulioCaetanovds/rubeus-teste-qa.git",
-        // Imagem realista de automação/dashboard
         image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1000&auto=format&fit=crop",
     },
     {
-        title: "Test Strategy - Gastos Residenciais",
-        shortDescription: "Suíte de testes fullstack aplicando a Pirâmide de Testes.",
-        fullDescription: "Arquitetura completa de testes automatizados com isolamento de camadas: Testes de Unidade/Integração no Backend (.NET/xUnit), Unitários no Frontend (Vitest/Zod) e E2E (Playwright). Implementação de Network Mocking para garantir testes resilientes e independentes de ambiente.",
-        tags: ["Playwright", "xUnit", ".NET", "Vitest", "TypeScript"],
-        repo: "https://github.com/JulioCaetanovds/minhas-financa-qa.git",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+        title: "Fim de Expediente",
+        shortDescription: "Script de otimização de RAM para ambientes de alta performance.",
+        fullDescription: "Automação em PowerShell que realiza o flush de memória cache e encerramento inteligente de processos de desenvolvimento (Docker, IDEs, WSL), preparando o hardware para workloads pesados ou games.",
+        tags: ["PowerShell", ".NET", "System Optimization", "Automation"],
+        repo: "https://github.com/JulioCaetanovds/fim-de-expediente.git",
+        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
     },
 ];
 
