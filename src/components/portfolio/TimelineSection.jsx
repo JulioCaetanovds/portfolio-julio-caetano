@@ -18,6 +18,13 @@ const experiences = [
             "Atuação estratégica no suporte a módulos financeiro e fiscal, realizando homologação de atualizações de sistema e análise aprofundada de logs para troubleshooting e reporte de bugs.",
     },
     {
+        role: "Suporte de Filiais",
+        company: "Rede de Farmácias São João",
+        period: "Setembro 2024 – Fevereiro 2025",
+        description:
+            "Suporte técnico em ambiente corporativo de grande escala. Responsável pela triagem crítica de chamados operacionais, desenvolvendo forte capacidade de identificação de padrões de falhas.",
+    },
+    {
         role: "Estagiário de QA / Automação",
         company: "Compass UOL",
         period: "Junho 2023 – Novembro 2023",

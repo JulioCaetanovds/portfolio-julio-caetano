@@ -37,6 +37,14 @@ const projects = [
         // Imagem realista de automação/dashboard
         image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1000&auto=format&fit=crop",
     },
+    {
+        title: "Test Strategy - Gastos Residenciais",
+        shortDescription: "Suíte de testes fullstack aplicando a Pirâmide de Testes.",
+        fullDescription: "Arquitetura completa de testes automatizados com isolamento de camadas: Testes de Unidade/Integração no Backend (.NET/xUnit), Unitários no Frontend (Vitest/Zod) e E2E (Playwright). Implementação de Network Mocking para garantir testes resilientes e independentes de ambiente.",
+        tags: ["Playwright", "xUnit", ".NET", "Vitest", "TypeScript"],
+        repo: "https://github.com/JulioCaetanovds/minhas-financa-qa.git",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    },
 ];
 
 export default function ProjectsSection() {
