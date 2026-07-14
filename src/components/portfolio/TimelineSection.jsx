@@ -8,7 +8,7 @@ const experiences = [
         company: "Saicon Sistemas de Pesagem",
         period: "Maio 2025 – Presente",
         description:
-            "Desenvolvimento e manutenção de 9 aplicativos em Flutter com arquitetura offline-first. Foco em prevenção de falhas e integração robusta com hardware via Bluetooth/IoT.",
+            "Desenvolvimento e manutenção de 7 aplicativos em Flutter publicados com arquitetura offline-first. Foco em prevenção de falhas e integração robusta com hardware via Bluetooth/IoT.",
     },
     {
         role: "Analista de Suporte ERP",
@@ -78,8 +78,9 @@ export default function TimelineSection() {
                                     <Briefcase className="w-5 h-5 text-primary" />
                                 </div>
 
+                                {/* ALINHAMENTO ESQUERDA FORÇADO AQUI */}
                                 <div
-                                    className={`ml-20 md:ml-0 md:w-[calc(50%-3rem)] ${isLeft ? "md:pr-8 md:text-right" : "md:pl-8 md:text-left"
+                                    className={`ml-20 md:ml-0 md:w-[calc(50%-3rem)] text-left ${isLeft ? "md:pr-8" : "md:pl-8"
                                         }`}
                                 >
                                     <div className="bg-card rounded-2xl p-6 shadow-sm border border-border/50 hover:shadow-md transition-shadow duration-300">
