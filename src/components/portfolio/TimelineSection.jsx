@@ -8,7 +8,7 @@ const experiences = [
         company: "Saicon Sistemas de Pesagem",
         period: "Maio 2025 – Presente",
         description:
-            "Desenvolvimento e manutenção de 7 aplicativos em Flutter publicados com arquitetura offline-first. Foco em prevenção de falhas e integração robusta com hardware via Bluetooth/IoT.",
+            "Desenvolvimento e manutenção de 8 aplicativos em Flutter publicados com arquitetura offline-first. Foco em prevenção de falhas e integração robusta com hardware via Bluetooth/IoT.",
     },
     {
         role: "Analista de Suporte ERP",

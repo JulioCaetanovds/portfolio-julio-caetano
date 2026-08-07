@@ -9,12 +9,20 @@ import {
     DialogDescription,
 } from "@/components/ui/dialog";
 
-// ADICIONE SEUS LINKS REAIS DA PLAY STORE E AS IMAGENS DOS ÍCONES AQUI
 const workProjects = [
+    {
+        title: "SN500 Fiscalização",
+        shortDescription: "Versão exclusiva para PRF com autenticação e regras de negócio dedicadas.",
+        fullDescription: "Ferramenta de alta precisão desenvolvida para otimizar o processo de fiscalização rodoviária pela PRF. Conta com sistema de acesso restrito (login), regras de negócio com base no arquivo portaria268 para o fluxo oficial de pesagem e integração confiável via Bluetooth com o hardware.",
+        tags: ["Flutter", "Auth", "Regras de Negócio", "BLE"],
+        playStoreUrl: "https://play.google.com/store/apps/details?id=br.com.saicon.sn500.fiscalizacao&pcampaignid=web_share",
+        appStoreUrl: "https://apps.apple.com/br/app/sn500-fiscaliza%C3%A7%C3%A3o/id6794320387",
+        image: "https://play-lh.googleusercontent.com/tLZfSLDdIjJvpJUOBXTu0Gth3f119GsMbD5Ux2gL3mW5O73TUuxLlK2u_uZBHdf45j8PF-TWZYVS2jcyWdHfRw=w240-h480-rw", 
+    },
     {
         title: "SN500 - Eixo",
         shortDescription: "Versão geral de pesagem por eixo baseada no projeto PRF.",
-        fullDescription: "Aplicativo de pesagem por eixo desenvolvido com base na solução original da PRF. Foco em precisão e integração com o hardware da Saicon para medições confiáveis em campo.",
+        fullDescription: "Aplicativo de pesagem por eixo desenvolvido com base na solução original da PRF. Foco em precisão e integração com o hardware da Saicon para pesagens confiáveis em campo.",
         tags: ["Flutter", "Dart", "Bluetooth LE", "Hardware Integration"],
         playStoreUrl: "https://play.google.com/store/apps/details?id=com.saicon.sn500&pcampaignid=web_share",
         appStoreUrl: "https://apps.apple.com/br/app/sn500/id6762484516",
@@ -40,8 +48,8 @@ const workProjects = [
     },
     {
         title: "SGP SN400",
-        shortDescription: "Interface flexível para controle de máquinas agrícolas.",
-        fullDescription: "Permite controle rigoroso de implementos. Arquitetura flexível que permite criar fluxos sob medida para grandes clientes do agronegócio, incluindo áreas de calibração.",
+        shortDescription: "Interface flexível para controle de máquinas.",
+        fullDescription: "Permite controle rigoroso de implementos. Arquitetura flexível que permite criar fluxos sob medida para grandes clientes, incluindo áreas de calibração.",
         tags: ["Flutter", "Custom UI", "BLE"],
         playStoreUrl: "https://play.google.com/store/apps/details?id=com.saicon.sn400_app&pcampaignid=web_share",
         appStoreUrl: "https://apps.apple.com/br/app/sn400/id6738698795",
