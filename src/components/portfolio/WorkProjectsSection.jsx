@@ -11,6 +11,15 @@ import {
 
 const workProjects = [
     {
+        title: "SN800",
+        shortDescription: "Controle total da balança com sincronização BLE e gestão offline.",
+        fullDescription: "Aplicativo oficial da Saicon para a balança SN800. Oferece comunicação BLE estável, relatórios avançados (PDF/CSV), filtros inteligentes e gestão offline robusta para garantir a operação na indústria e no campo.",
+        tags: ["Flutter", "Bluetooth LE", "Offline-First", "Reports"],
+        playStoreUrl: "https://play.google.com/store/apps/details?id=br.com.saicon.sn800&pcampaignid=web_share",
+        appStoreUrl: "https://apps.apple.com/br/app/sn800/id6797958664",
+        image: "https://play-lh.googleusercontent.com/ADbyWRg9mQIVLhuR0KgnTVOvJMXzEm7eMyWf0hfkIPkDR43boy72Xlak4KVvJll506v-_tKb317NQzd9M5I0GA=w240-h480-rw",
+    },
+    {
         title: "SN500 Fiscalização",
         shortDescription: "Versão exclusiva para PRF com autenticação e regras de negócio dedicadas.",
         fullDescription: "Ferramenta de alta precisão desenvolvida para otimizar o processo de fiscalização rodoviária pela PRF. Conta com sistema de acesso restrito (login), regras de negócio com base no arquivo portaria268 para o fluxo oficial de pesagem e integração confiável via Bluetooth com o hardware.",
